@@ -1,0 +1,25 @@
+
+body{
+  background-color: white;
+ }
+
+.login-box{
+   background-image: url(../img/body_bg.jpeg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0; 
+}
+
+.myapp-login {
+  background-color: rgba(255, 255, 255, 0.05);
+  width: 100%;
+  max-width: 400px; /* จำกัดความกว้างสูงสุด */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
