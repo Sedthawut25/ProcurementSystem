@@ -30,7 +30,7 @@
         }
 
         .search-bar input {
-            background: linear-gradient(to right, #e0e0e0ff);
+            background: linear-gradient(to right, #f5f3f3ff);
             width: 100%;
             padding: 10px 15px;
             font-size: 16px;
@@ -40,7 +40,7 @@
         }
 
         .search-bar button {
-            background: linear-gradient(to right, #e0e0e0ff);
+            background: linear-gradient(to right, #f5f3f3ff);
             position: absolute;
             right: 0;
             top: 0;
