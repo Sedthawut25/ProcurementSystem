@@ -16,7 +16,7 @@
         }
 
         .top-bar {
-            background: linear-gradient(to right, #2d94f5ff, #f63); /* สีส้มแถบข้างบน */
+            background: linear-gradient(to right, #2d94f5ff); /* สีส้มแถบข้างบน */
             padding: 10px 20px;
             display: flex;
             justify-content: center;
@@ -24,14 +24,13 @@
         }
 
         .search-bar {
-            background: linear-gradient(to right, #e0e0e0ff, #f63);
             width: 100%;
             max-width: 600px;
             position: relative;
         }
 
         .search-bar input {
-            background: linear-gradient(to right, #e0e0e0ff, #f63);
+            background: linear-gradient(to right, #e0e0e0ff);
             width: 100%;
             padding: 10px 15px;
             font-size: 16px;
