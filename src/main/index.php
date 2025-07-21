@@ -40,6 +40,7 @@
         }
 
         .search-bar button {
+            background: linear-gradient(to right, #e0e0e0ff);
             position: absolute;
             right: 0;
             top: 0;
