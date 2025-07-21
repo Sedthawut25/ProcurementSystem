@@ -24,6 +24,7 @@
         }
 
         .search-bar {
+            background: linear-gradient(to right, #e0e0e0ff, #f63);
             width: 100%;
             max-width: 600px;
             position: relative;
