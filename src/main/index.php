@@ -17,7 +17,7 @@
 
         .top-bar {
             background: linear-gradient(to right, #2d94f5ff); /* สีส้มแถบข้างบน */
-            padding: 10px 20px;
+            padding: 30px 20px;
             display: flex;
             justify-content: center;
             align-items: center;
