@@ -8,7 +8,7 @@
     loadBootstrapCSS();
     ?> 
     <link href="../../assets/css/style.css" rel="stylesheet">
-    <title>Document</title>
+    <title>index</title>
     <style>
         body {
             margin: 0;
@@ -16,7 +16,7 @@
         }
 
         .top-bar {
-            background: linear-gradient(to right, #f53d2d, #f63); /* สีส้มแบบ Shopee */
+            background: linear-gradient(to right, #2d94f5ff, #f63); /* สีส้มแถบข้างบน */
             padding: 10px 20px;
             display: flex;
             justify-content: center;
@@ -30,6 +30,7 @@
         }
 
         .search-bar input {
+            background: linear-gradient(to right, #e0e0e0ff, #f63);
             width: 100%;
             padding: 10px 15px;
             font-size: 16px;
@@ -55,7 +56,7 @@
 <body>
     <div class="top-bar">
         <div class="search-bar">
-            <input type="text" placeholder="">
+            <input type="text" placeholder="ค้นหา..">
             <button>🔍</button>
         </div>
     </div>
