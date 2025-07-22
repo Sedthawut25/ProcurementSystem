@@ -6,8 +6,9 @@
     <?php
     include_once('../includes/bootstrap.php');
     loadBootstrapCSS();
+    loadBootstrapJS();
     ?>   
-    <link href="../../assets/css/style.css" rel="stylesheet">
+    
     <title>Document</title>
 </head>
 <body class="body-login">  
@@ -16,7 +17,7 @@
     <div class="text-center mb-3">
       <h2>Login</h2>
     </div>
-    <form method="post" action="signup.php">
+    <form method="post" action="check_login.php">
       <div class="mb-3">
         <label for="username" class="form-label">USERNAME</label>
         <input type="username" class="form-control" id="username" name="username" required>
@@ -29,10 +30,10 @@
         <a href="forgot_password.php" style="color: white;">Forgot password</a><br>
       </div>
       <div class="text-center mb-3">
-        <button type="submit" class="btn btn-primary">Login</button>
+        <a href="../main/index.php" class="btn btn-primary">Login</a>
       </div>
       <div class="text-center">
-        <p>Don't have an account? <a href="#!" class="link-info">Register here</a></p>
+        <p>Don't have an account? <a href="register.php" class="link-info">Register here</a></p>
       </div>
     </form>
   </div>
