@@ -9,7 +9,7 @@
     loadBootstrapJS();
     ?>   
     
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body class="body-login">  
   <div class="login-box">
@@ -33,7 +33,7 @@
         <a href="../main/index.php" class="btn btn-primary">Login</a>
       </div>
       <div class="text-center">
-        <p>Don't have an account? <a href="register.php" class="link-info">Register here</a></p>
+        <p>Don't have an account? <a href="register.php" class="link-info">SignUp here</a></p>
       </div>
     </form>
   </div>
