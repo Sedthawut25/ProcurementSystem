@@ -15,7 +15,7 @@
     <div class="index-box">
         <div class="top-bar">
             <div class="top-bar-left">
-                <img src="../../assets/img/logodemo.png" alt="logo" class="logo-img"> <div class="search-bar">
+                <img src="../../assets/img/logo.png" alt="logo" class="logo-img"> <div class="search-bar">
                     <input type="text" placeholder="ค้นหาสินค้า โปรโมชั่น...">
                     <button><i class="fas fa-search"></i></button>
             </div>
