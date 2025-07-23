@@ -35,14 +35,12 @@ body {
     background-color: #f5f5f5;
 }
 
+
 .top-bar {
-    background-color: #2289ffff; /* สีแถบบน */
-    padding: 10px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+    background-color: #2289ff; /* สีที่คุณใช้ */
+    padding: 15px 0; /* ระยะห่างบน-ล่าง */
 }
+
 
 .top-bar-left {
     display: flex;
@@ -55,12 +53,12 @@ body {
 
 .logo-img {
     height: 50px;
-    width: 50;
-    object-fit: contain;
+    width: 50px;
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid #fff;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-right: 15px;
 }
 
 .search-bar {
@@ -197,5 +195,87 @@ body {
 
 #user-dropdown a:hover {
     background-color: #f5f5f5;
+}
+
+/* TOP NAV (ด้านบนสุด) */
+/* เปลี่ยนสีพื้นหลังของทั้ง top-bar และ top-nav-bar */
+.top-nav-bar,
+.top-bar {
+    background-color: #2289ff;
+    color: white;
+}
+
+/* เมนูด้านบนสุด */
+.top-nav-bar {
+    background-color: #2289ff;
+    color: white;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.top-nav-left, .top-nav-right {
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    align-items: center;
+    gap: 25px;
+}
+
+.top-nav-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.top-nav-bar a:hover {
+    text-decoration: underline;
+}
+
+.header-logo {
+    flex-shrink: 0; /* ไม่ให้โลโก้ย่อขนาด */
+}
+
+.logo-img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.header-search {
+    flex-grow: 1; /* ทำให้ช่องค้นหายืดเต็มพื้นที่ที่เหลือ */
+}
+
+.search-bar {
+    width: 100%;
+    position: relative;
+}
+
+.search-bar input {
+    background-color: white;
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+.search-bar button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+    color: #2289ff;      
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+    border-radius: 0 2px 2px 0;
+    font-size: 16px;
 }
 
