@@ -22,36 +22,33 @@
         </div>
 
             <div class="header-right">
-                <div class="dropdown-container" id="cart-container">
-                    <i class="bi bi-cart3"></i>
-                    <div class="dropdown-menu" id="cart-dropdown">
-                        <p style="padding: 0 15px; color: #888; font-size:14px;">สินค้าที่เพิ่มเข้ามา</p>
-                        <div class="cart-item">
-                            <img src="https://down-th.img.susercontent.com/file/th-11134207-7r98o-lqg79g5v01yae7_tn" alt="item">
-                            <div class="cart-item-info">G&O โต๊ะสแตนเลส โต๊ะเกม 160/140cm...</div>
-                            <div class="cart-item-price">฿559</div>
-                        </div>
-                        <div class="cart-item">
-                            <img src="https://down-th.img.susercontent.com/file/cn-11134207-7r98o-lqwv4nm4whz42d_tn" alt="item">
-                            <div class="cart-item-info">REX โต๊ะคอมพิวเตอร์ โต๊ะอีสปอร์ต...</div>
-                            <div class="cart-item-price">฿599</div>
-                        </div>
-                        <div class="cart-footer">
-                            <button>ดูรถเข็นของฉัน</button>
-                        </div>
-                    </div>
-                </div>
+                <!-- ปุ่มรถเข็น -->
+<div class="dropdown me-3">
+  <button class="btn btn-outline-light position-relative" id="cartDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+    <i class="bi bi-cart3"></i>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="cartDropdown">
+    <li class="dropdown-header text-muted">สินค้าที่เพิ่มเข้ามา</li>
+    <li><hr class="dropdown-divider"></li>
+    <li class="px-3">G&O โต๊ะสแตนเลส - ฿559</li>
+    <li class="px-3">REX โต๊ะคอม - ฿599</li>
+    <li><hr class="dropdown-divider"></li>
+    <li class="text-end px-3"><a href="#" class="btn btn-sm btn-primary mt-1">ดูรถเข็นของฉัน</a></li>
+  </ul>
+</div>
 
-                <div class="dropdown-container" id="user-container">
-                    <i class="bi bi-person-circle"></i>
-                    <span>USER</span>
-                    <div class="dropdown-menu" id="user-dropdown">
-                        <a href="#">บัญชีของฉัน</a>
-                        <a href="#">การซื้อของฉัน</a>
-                        <a href="#">ออกจากระบบ</a>
-                    </div>
-                </div>
-            </div>
+<!-- ปุ่มผู้ใช้ -->
+<div class="dropdown">
+  <button class="btn btn-outline-light d-flex align-items-center gap-2" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+    <i class="bi bi-person-circle"></i> <span>USER</span>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+    <li><a class="dropdown-item" href="#">บัญชีของฉัน</a></li>
+    <li><a class="dropdown-item" href="#">การซื้อของฉัน</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item text-danger" href="#">ออกจากระบบ</a></li>
+  </ul>
+</div>
         </div>
     </div>
     
