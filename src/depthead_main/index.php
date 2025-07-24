@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php
     include_once('../includes/header.php');
-    include_once('../includes/supplier_sidebar.php');
+    include_once('../includes/depthead_sidebar.php');
     include_once('../includes/bootstrap.php');
     loadBootstrapCSS();
     loadBootstrapJS();
     ?> 
     
-    <title>ADMIN</title>
+    <title>DEPT STAFF</title>
 
 </head>
 
