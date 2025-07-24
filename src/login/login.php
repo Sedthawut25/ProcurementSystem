@@ -30,7 +30,7 @@
         <a href="forgot_password.php" style="color: white;">Forgot password</a><br>
       </div>
       <div class="text-center mb-3">
-        <a href="../main/index.php" class="btn btn-primary">Login</a>
+        <a href="../admin_main/index.php" class="btn btn-primary">Login</a>
       </div>
       <div class="text-center">
         <p>Don't have an account? <a href="register.php" class="link-info">Register here</a></p>

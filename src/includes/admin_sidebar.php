@@ -10,31 +10,26 @@
     loadBootstrapJS();
     ?>
     
-    <title>Sidebar Menu</title>
 </head>
 <body>
      <div class="sidebar">
         <ul class="sidebar-menu">
             <li class="menu-item">
-                <i class="bi bi-house-door"></i><a href="#"> คำขอร้องจัดซื้อ</a>
+                <i class="bi bi-person-fill-gear"></i><a href="#"> จัดการพนักงานผู้ใช้ระบบ</a>
                 <ul class="submenu">
-                    <li><a href="#">สร้างคำขอร้องใหม่</a></li>
-                    <li><a href="#">รายการคำร้องขอของฉัน</a></li>
-                    <li><a href="#">ค้นหา/ติดตาม PR</a></li>
+                    <li><a href="#">เพิ่มพนักงานใหม่</a></li>
+                    <li><a href="#">รายชื่อพนักงาน</a></li>
+                    <li><a href="#">จัดการสิทธิ์การเข้าถึง</a></li>
+                    <li><a href="#">ประวัติการเข้าสู่ระบบ (log)</a></li>
                 </ul>
             </li>
 
             <li class="menu-item">
-                <i class="bi bi-box-seam"></i><a href="#"> ใบสั่งซื้อ</a>
-                <ul class="submenu">
-                    <li><a href="#">สร้างใบสั่งซื้อ</a></li>
-                    <li><a href="#">รายการ PO ทั้งหมด</a></li>
-                    <li><a href="#">พิมพ์/ส่งอีเมลใบสั่งซื้อ</a></li>
-                </ul>
+                <i class="bi bi-box-seam-fill"></i><a href="#"> จัดการประเภทสิทค้า</a>
             </li>
 
             <li class="menu-item">
-                <i class="bi bi-tag"></i><a href="#"> การรับรอง/การจัดส่ง</a>
+                <i class="bi bi-person-video2"></i><a href="#"> จัดการแผนก</a>
                 <ul class="submenu">
                     <li><a href="#">ลงรับสินค้า</a></li>
                     <li><a href="#">ตรวจสอบสถานะการจัดส่ง</a></li>
@@ -43,7 +38,7 @@
             </li>
 
             <li class="menu-item">
-                <i class="bi bi-cart-check"></i><a href="#"> ซัพพลายเออร์</a>
+                <i class="bi bi-wallet-fill"></i><a href="#"> จัดการประเภทการจ่าย</a>
                 <ul class="submenu">
                     <li><a href="#">เพิ่มผู้ขายใหม่</a></li>
                     <li><a href="#">จัดการข้อมูลผู้ขาย</a></li>
@@ -52,20 +47,12 @@
             </li>
 
             <li class="menu-item">
-                <i class="bi bi-gear"></i><a href="#"> การอนุมัติ</a>
+                <i class="bi bi-people-fill"></i><a href="#"> ดูสมาชิก</a>
                 <ul class="submenu">
-                    <li><a href="#">อนุมัติคำร้องขอ PR</a></li>
-                    <li><a href="#">อนุมัติใบสั่งซื้อ PO</a></li>
-                    <li><a href="#">ลำดับขั้นอนุมัติ (Workflow)</a></li>
-                </ul>
-            </li>
-
-            <li class="menu-item">
-                <i class="bi bi-motherboard"></i><a href="#"> รายงาน/Dashboard</a>
-                <ul class="submenu">
-                    <li><a href="#">สรุปรายเดือน/ปี</a></li>
-                    <li><a href="#">รายงานงบประมาณ</a></li>
-                    <li><a href="#">สินค้าหรือผู้ขายยอดนิยม</a></li>
+                    <li><a href="#">สมาชิกทั้งหมด</a></li>
+                    <li><a href="#">สมาชิกที่รออนุมัติ</a></li>
+                    <li><a href="#">สมาชิกที่ถูกระงับ</a></li>
+                    
                 </ul>
             </li>
         </ul>

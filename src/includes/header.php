@@ -46,7 +46,7 @@
     <li><a class="dropdown-item" href="#">บัญชีของฉัน</a></li>
     <li><a class="dropdown-item" href="#">การซื้อของฉัน</a></li>
     <li><hr class="dropdown-divider"></li>
-    <li><a class="dropdown-item text-danger" href="#">ออกจากระบบ</a></li>
+    <li><a class="dropdown-item text-danger" href="../login/login.php">ออกจากระบบ</a></li>
   </ul>
 </div>
         </div>
